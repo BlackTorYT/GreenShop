@@ -3,7 +3,6 @@
   padding: 0px;
   margin: 0px;
   border: none;
-  font-family: "Cera Pro", sans-serif;
 }
 
 *,
@@ -88,6 +87,7 @@ legend {
 
 body {
   width: 1440px;
+  font-family: "Cera Pro", sans-serif;
 }
 
 .container {
@@ -285,13 +285,13 @@ a {
   color: #46A358;
 }
 
-footer {
+.footer {
   margin-top: 107px;
 }
 
-.footer-container {
+.footer__container {
   width: 1200px;
-  margin-top: 92.23px;
+  margin: 0 auto;
 }
 
 .footer__top {
@@ -354,12 +354,11 @@ footer {
 }
 
 .footer__content {
-  width: 1022px;
-  height: 163px;
-  padding: 33px 0px 40px 23px;
+  padding: 32px 155px 0 23px;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 26px;
 }
 
 .footer__nav {
@@ -384,7 +383,7 @@ footer {
   color: #3D3D3D;
   font-size: 14px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 12px;
 }
 
 .footer__right {
@@ -412,7 +411,12 @@ footer {
   cursor: pointer;
 }
 
-.footer__footer span {
+.footer__copyright {
+  padding-top: 5px;
+  height: 50px;
+}
+
+.footer__copyright span {
   color: #3D3D3D;
   font-size: 14px;
   font-weight: 400;
