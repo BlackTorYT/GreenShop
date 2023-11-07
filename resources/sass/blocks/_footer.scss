@@ -1,0 +1,162 @@
+footer {
+  margin-top: 107px;
+}
+.footer-container {
+  width: 1200px;
+  margin-top: 92.23px;
+}
+
+.footer__top {
+  height: 87.62px;
+  width: 1200px;
+  background-color: rgba(70, 163, 88, 0.10);
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__top-cut {
+  width: 933px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 27px;
+}
+
+.footer__address {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__adress-text {
+  width: 170px;
+  height: 36.81px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.footer__mail {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.footer__number {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  display: flex;
+  column-gap: 8px;
+}
+
+.footer__main {
+  width: 1200px;
+  height: 236px;
+  background-color: #FBFBFB;
+  margin: 0 auto;
+  border-bottom: .3px solid rgba(70, 163, 88, 0.20);
+}
+
+.footer__content {
+  width: 1022px;
+  height: 163px;
+  padding: 33px 0px 40px 23px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.footer__nav {
+  width: 625px;
+  height: 174px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav__list li {
+  margin-bottom: 18px;
+  
+}
+
+.footer__title {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  // line-height: 16px;
+  margin-bottom: 17px;
+
+}
+
+.footer__text {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__media {
+  margin-bottom: 32px;
+}
+
+.footer__social {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__button {
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid rgba(70, 163, 88, 0.20);  
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.footer__footer span {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__copyright span {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
+  text-align: center;
+}
