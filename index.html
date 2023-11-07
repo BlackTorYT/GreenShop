@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./resources/css/main.min.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <!-- <script src="resources/js/slider.js"></script> -->
   <title>Greenshop</title>
@@ -14,7 +14,7 @@
     <div class="container">
       <div class="header__top-row">
         <a href="#">
-          <img src="img/logo.png" alt="Greenshop">
+          <img src="resources/img/logo.png" alt="Greenshop">
         </a>
         <div class="header__nav">
           <nav class="nav">
@@ -28,11 +28,19 @@
         <div class="header__right">
           <div class="header__cart">
             <a href="#">
-              <img class="header__cart" src="img/cart.svg" alt="Cart">
+              <img class="header__cart" src="resources/img/cart.svg" alt="Cart">
             </a>
           </div>
           <div class="header__login">
-            <a href="#"> <button class="header__button"> <img class="header__logout" src="img/Logout.png"></img> Login</button></a>
+            <a href="#">
+              <button class="header__button">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.1601 10.1006H8.12598" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M15.7212 7.67059L18.1612 10.1006L15.7212 12.5306" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.6342 6.35823C13.3592 3.3749 12.2425 2.29156 7.80082 2.29156C1.88332 2.29156 1.88332 4.21656 1.88332 9.9999C1.88332 15.7832 1.88332 17.7082 7.80082 17.7082C12.2425 17.7082 13.3592 16.6249 13.6342 13.6416" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Login
+              </button></a>
           </div>
         </div>
       </div>
@@ -42,11 +50,10 @@
   <!-- SLIDER -->
   <div class="slider">
     <div class="slider-slides">
-        <div class="slider-slide" style="background-image: url(img/banner.png);"></div>
-        <!-- Еще слайды -->
-        <div class="slider-slide" style="background-image: url(img/banner.png);"></div>
+        <div class="slider-slide">
+          <img src="resources/img/main_banner.png" alt="">
+        </div>
     </div>
-    <div class="slider-dots"></div>
   </div>
   <!-- Products -->
   <div class="products">
@@ -112,9 +119,9 @@
               </div>
             </div>
           </div>
-          <div class="categories__banner">
-            <img src="img/sale.png" alt="">
-          </div>
+        </div>
+        <div class="categories__banner">
+          <img src="resources/img/sale.png" alt="">
         </div>
       </div>
       <!-- Catalog -->
@@ -122,11 +129,11 @@
       <div class="catalog">
         <div class="catalog__container">
           <div class="catalog__sort">
-            <p class="catalog__sortBy">Sort by: <span id="catalog__parameter">Default sorting</span><img src="img/arrowDown.png" alt=""></p>
+            <p class="catalog__sortBy">Sort by: <span id="catalog__parameter">Default sorting</span><img src="resources/img/arrowDown.png" alt=""></p>
           </div>
           <div class="catalog__block">
             <a class="catalog__item" href="#">
-              <img src="img/item1.png" alt="" class="catalog__img">
+              <img src="resources/img/item1.png" alt="" class="catalog__img">
               <h3 class="catalog__title">
                 Barberton Daisy
               </h3>
@@ -137,7 +144,7 @@
               </div>
             </a>
             <a class="catalog__item" href="#">
-              <img src="img/item2.png" alt="" class="catalog__img">
+              <img src="resources/img/item2.png" alt="" class="catalog__img">
               <h3 class="catalog__title">
                 Angel Wing Begonia
               </h3>
@@ -148,7 +155,7 @@
               </div>
             </a>
             <a class="catalog__item" href="#">
-              <img src="img/item3.png" alt="" class="catalog__img">
+              <img src="resources/img/item3.png" alt="" class="catalog__img">
               <h3 class="catalog__title">
                 African Violet
               </h3>
@@ -159,7 +166,7 @@
               </div>
             </a>
             <a class="catalog__item" href="#">
-              <img src="img/item4.png" alt="" class="catalog__img">
+              <img src="resources/img/item4.png" alt="" class="catalog__img">
               <h3 class="catalog__title">
                 Beach Spider Lily
               </h3>
@@ -170,7 +177,7 @@
               </div>
             </a>
             <a class="catalog__item" href="#">
-              <img src="img/item5.png" alt="" class="catalog__img">
+              <img src="resources/img/item5.png" alt="" class="catalog__img">
               <h3 class="catalog__title">
                 Blushing Bromeliad
               </h3>
@@ -181,7 +188,7 @@
               </div>
             </a>
             <a class="catalog__item" href="#">
-              <img src="img/item6.png" alt="" class="catalog__img">
+              <img src="resources/img/item6.png" alt="" class="catalog__img">
               <h3 class="catalog__title">
                 Aluminum Plant
               </h3>
@@ -192,7 +199,7 @@
               </div>
             </a>
             <a class="catalog__item" href="#">
-              <img src="img/item7.png" alt="" class="catalog__img">
+              <img src="resources/img/item7.png" alt="" class="catalog__img">
               <h3 class="catalog__title">
                 Bird's Nest Fern
               </h3>
@@ -203,7 +210,7 @@
               </div>
             </a>
             <a class="catalog__item" href="#">
-              <img src="img/item8.png" alt="" class="catalog__img">
+              <img src="resources/img/item8.png" alt="" class="catalog__img">
               <h3 class="catalog__title">
                 Broadleaf Lady Palm
               </h3>
@@ -214,7 +221,7 @@
               </div>
             </a>
             <a class="catalog__item" href="#">
-              <img src="img/item9.png" alt="" class="catalog__img">
+              <img src="resources/img/item9.png" alt="" class="catalog__img">
               <h3 class="catalog__title">
                 Chinese Evergreen
               </h3>
@@ -246,7 +253,7 @@
         <button class="pages__button">4</button>
       </div>
       <div class="pages__item">
-        <button class="pages__button"><img src="img/arrowRight.svg" alt=""></button>
+        <button class="pages__button"><img src="resources/img/arrowRight.svg" alt=""></button>
       </div>
     </div>
   </div>
@@ -268,51 +275,51 @@
           <div class="blog__column">
             <div class="item-blog">
               <div class="item-blog__icon">
-                <img src="img/01.png" alt="">
+                <img src="resources/img/01.png" alt="">
               </div>
               <div class="item-blog__date">September 12  I Read in 6 minutes</div>
               <div class="item-blog__title">Cactus & Succulent 
                 Care Tips</div>
               <div class="item-blog__subtitle">Cacti are succulents are easy care plants for any home or patio. </div>
-              <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" src="img/arrow.svg" alt=""></a></div>
+              <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" src="resources/img/arrow.svg" alt=""></a></div>
             </div>
           </div>
 
           <div class="blog__column"><div class="item-blog">
             <div class="item-blog__icon">
-              <img src="img/02.png" alt="">
+              <img src="resources/img/02.png" alt="">
             </div>
             <div class="item-blog__date">September 13  I Read in 2 minutes</div>
             <div class="item-blog__title">Top 10 Succulents for
               Your Home</div>
             <div class="item-blog__subtitle">Best in hanging baskets. Prefers medium to high light. </div>
-            <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" src="img/arrow.svg" alt=""></a></div>
+            <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" src="resources/img/arrow.svg" alt=""></a></div>
           </div>
         </div>
 
           <div class="blog__column">
             <div class="item-blog">
               <div class="item-blog__icon">
-                <img src="img/03.png" alt="">
+                <img src="resources/img/03.png" alt="">
               </div>
               <div class="item-blog__date">September 15  I Read in 3 minutes</div>
               <div class="item-blog__title">Cacti & Succulent 
                 Care Tips</div>
               <div class="item-blog__subtitle">Cacti and succulents thrive in containers and because most are.. </div>
-              <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" src="img/arrow.svg" alt=""></a></div>
+              <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" src="resources/img/arrow.svg" alt=""></a></div>
             </div>
           </div>
 
           <div class="blog__column">
             <div class="item-blog">
               <div class="item-blog__icon">
-                <img src="img/04.png" alt="">
+                <img src="resources/img/04.png" alt="">
               </div>
               <div class="item-blog__date">September 15  I Read in 2 minutes</div>
               <div class="item-blog__title">Best Houseplants 
                 Room by Room</div>
               <div class="item-blog__subtitle">The benefits of houseplants are endless. In addition to.. </div>
-              <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" src="img/arrow.svg" alt=""></a></div>
+              <div class="item-blog__read"><a href="#">Read More<img class="item-blog__arrow" src="resources/img/arrow.svg" alt=""></a></div>
             </div>
           </div>
         </div>
@@ -326,17 +333,17 @@
       <div class="footer__top">
         <div class="footer__top-cut">
           <div class="footer__logo">
-            <img src="img/logo.svg" alt="">
+            <img src="resources/img/logo.svg" alt="">
           </div>
           <div class="footer__address">
-            <img src="img/location.svg" alt=""> <div class="footer__adress-text">70 West Buckingham Ave.
+            <img src="resources/img/location.svg" alt=""> <div class="footer__adress-text">70 West Buckingham Ave.
             Farmingdale, NY 11735</div>
           </div>
           <div class="footer__mail">
-            <img src="img/message.svg" alt=""> contact@greenshop.com
+            <img src="resources/img/message.svg" alt=""> contact@greenshop.com
           </div>
           <div class="footer__number">
-            <img src="img/phone.svg" alt=""> +88 01911 717 490
+            <img src="resources/img/phone.svg" alt=""> +88 01911 717 490
           </div>
         </div>
       </div>
@@ -382,16 +389,16 @@
             <div class="footer__media">
               <div class="footer__title">Social Media</div>
               <div class="footer__social">
-                <a href="#"><button class="footer__button"><img src="img/Facebook.svg" alt=""></button></a>
-                <a href="#"><button class="footer__button"><img src="img/Instagram.svg" alt=""></button></a>
-                <a href="#"><button class="footer__button"><img src="img/Twitter.svg" alt=""></button></a>
-                <a href="#"><button class="footer__button"><img src="img/Linkedin.svg" alt=""></button></a>
-                <a href="#"><button class="footer__button"><img src="img/Union.svg" alt=""></button></a>
+                <a href="#"><button class="footer__button"><img src="resources/img/Facebook.svg" alt=""></button></a>
+                <a href="#"><button class="footer__button"><img src="resources/img/Instagram.svg" alt=""></button></a>
+                <a href="#"><button class="footer__button"><img src="resources/img/Twitter.svg" alt=""></button></a>
+                <a href="#"><button class="footer__button"><img src="resources/img/Linkedin.svg" alt=""></button></a>
+                <a href="#"><button class="footer__button"><img src="resources/img/Union.svg" alt=""></button></a>
               </div>
             </div>
             <div class="footer__payment">
               <div class="footer__title">We accept</div>
-              <a href="#"><img src="img/visa.png" alt=""></a>
+              <a href="#"><img src="resources/img/visa.png" alt=""></a>
             </div>
           </div>
         </div>
