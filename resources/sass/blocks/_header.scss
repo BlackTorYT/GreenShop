@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+
   min-height: 53px; 
   margin-top: 26px;
   
@@ -23,18 +24,21 @@
 
 .nav__list {
   display: flex;
+
   column-gap: 50px;
 }
 
 .nav__item {
   color: #3D3D3D;
+
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   line-height: normal;
 
   &_active{
   color: #3D3D3D;
+
   font-size: 16px;
   font-weight: 700;
   line-height: normal;
@@ -43,6 +47,7 @@
 
 .header__right {
   display: flex;
+
   column-gap: 35px;
 }
 
@@ -54,16 +59,21 @@
 .header__button {
   display: flex;
   justify-content: center;
-  padding: 8px 0px 7px 0px;
-  gap: 4px;
+
   width: 100px;
   height: 35px;
-  background-color: #46A358;
-  border-radius: 6px;
+  padding: 8px 0px 7px 0px;
+
+  cursor: pointer;
+
   color: #FFF;
+  border-radius: 6px;
+  background-color: #46A358;
+
   font-size: 16px;
   font-weight: 500;
-  cursor: pointer;
+
+  gap: 4px;
 }
 
 .header__logout {
