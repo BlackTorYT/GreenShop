@@ -4,7 +4,7 @@ const gulp = require('gulp');
 const scss = require('gulp-sass')(require('sass'));
 const csscomb = require('gulp-csscomb');
 const csso = require('gulp-csso');
-const cssShorthand = require('gulp-shorthand');
+
 gulp.task('scss', function () {
     return gulp.src('resources/sass/*.scss')
         .pipe(scss().on('error', scss.logError))
@@ -15,12 +15,6 @@ gulp.task('csscomb', function () {
     return gulp.src('resources/sass/**/*.scss')
         .pipe(csscomb('yandex.json').on('error', scss.logError))
         .pipe(gulp.dest('resources/sass'));
-});
-
-gulp.task('shorthand', function () {
-    return gulp.src('resources/css/*.css')
-        .pipe(cssShorthand().on('error', scss.logError))
-        .pipe(gulp.dest('resources/css'));
 });
 
 gulp.task('watch', function () {
