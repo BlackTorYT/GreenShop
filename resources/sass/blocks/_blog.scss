@@ -1,10 +1,18 @@
 .blog {
-  margin-top: 200px;
+  //height: 447px;
+  margin-top: 108px;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .blog__container {
+  //height: 447px;
   max-width: 1202px;
-  margin: 0px auto 0px auto
+  margin: 0px 0 0px 0;
+}
+
+.blog__content {
+  height: 447px;
 }
 
 .blog__title {

@@ -1,6 +1,9 @@
 .pages {
-  width: 1200px;
-  margin: 90px auto 0 auto;
+  //height: 35px;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: flex-end;
+  margin: 90px 0 0 0;
 }
 
 .pages__container {
@@ -35,6 +38,7 @@
 }
 
 .pages__button_active {
-  color: white;
+  color: white;
+
   background-color: #46A358;
 }

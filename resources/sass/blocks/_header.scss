@@ -2,9 +2,10 @@
   display: flex;
   justify-content: space-between;
 
-  min-height: 53px; 
+  min-height: 53px;
   margin-top: 26px;
-  
+  max-width: 1200px;
+  width: 100%;
 }
 
 .container {

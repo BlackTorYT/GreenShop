@@ -1,6 +1,6 @@
 .catalog__container {
-  width: 840px;
-  height: 1244px;
+  max-width: 840px;
+  //height: 1244px;
 }
 
 .catalog__sort {
@@ -30,7 +30,8 @@
 
 .catalog__img {
   max-width: 250px;
-  max-height: 250px;
+  max-height: 250px;
+
   margin: 0 auto 31px auto;
 }
 .catalog__title {

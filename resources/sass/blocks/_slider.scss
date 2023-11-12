@@ -3,9 +3,10 @@
 
   overflow: hidden;
 
-  width: 1200px;
-  height: 450px;
-  margin: 12px auto 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  //height: 450px;
+  margin: 12px 0 0 0;
 }
 .slider-slides {
   position: relative;
@@ -14,6 +15,7 @@
     height: 100%;
 }
 .slider-slide {
-  width: 100%;
+  width: 100%;
+
   height: 100%;
 }
