@@ -21,6 +21,10 @@
   margin: 0 auto 0 auto;
 
   background-color: rgba(70, 163, 88, 0.10);
+
+  @media screen and (max-width: 750px) {
+    height: 98px;
+    }
 }
 
 .footer__top-cut {
@@ -30,6 +34,20 @@
 
   width: 933px;
   margin-left: 27px;
+
+  @media screen and (max-width: 999px) {
+    width: 1055px;
+    }
+    @media screen and (max-width: 750px) {
+      width: 1120px;
+    }
+}
+
+.footer__logo img {
+  @media screen and (max-width: 750px) {
+    width: 180px;
+    height: 42px;
+    }
 }
 
 .footer__address {
@@ -37,6 +55,21 @@
   justify-content: space-between;
 
   width: 200px;
+
+  @media screen and (max-width: 999px) {
+    width: 250px;
+    }
+
+    @media screen and (max-width: 750px) {
+      width: 310px;
+      }
+}
+
+.footer__address img {
+  @media screen and (max-width: 750px) {
+    width: 20px;
+    height: 40px;
+    }
 }
 
 .footer__adress-text {
@@ -48,6 +81,16 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
+
+  @media screen and (max-width: 999px) {
+    font-size: 16px;
+    width: 220px;
+    }
+
+    @media screen and (max-width: 750px) {
+      width: 270px;
+      font-size: 20px;
+      }
 }
 
 .footer__mail {
@@ -60,6 +103,20 @@
   line-height: 22px;
 
   column-gap: 10px;
+  @media screen and (max-width: 999px) {
+    font-size: 16px;
+    }
+
+    @media screen and (max-width: 750px) {
+      font-size: 20px;
+      }
+}
+
+.footer__mail img {
+  @media screen and (max-width: 750px) {
+    width: 24px;
+    height: 28px;
+    }
 }
 
 .footer__number {
@@ -72,6 +129,21 @@
   line-height: 22px;
 
   column-gap: 8px;
+
+  @media screen and (max-width: 999px) {
+    font-size: 16px;
+    }
+
+    @media screen and (max-width: 750px) {
+      font-size: 20px;
+      }
+}
+
+.footer__number img{
+  @media screen and (max-width: 750px) {
+    width: 24px;
+    height: 28px;
+    }
 }
 
 .footer__main {
@@ -81,6 +153,14 @@
 
   border-bottom: .3px solid rgba(70, 163, 88, 0.20);
   background-color: #FBFBFB;
+
+  @media screen and (max-width: 999px) {
+    height: 126px;
+  }
+
+  @media screen and (max-width: 750px) {
+    margin-bottom: 10px;
+    }
 }
 
 .footer__content {
@@ -91,6 +171,10 @@
   height: 100%;
 
   padding: 32px 155px 0 23px;
+
+  @media screen and (max-width: 750px) {
+    padding-top: 22px;
+    }
 }
 
 .footer__nav {
@@ -99,6 +183,10 @@
 
   width: 625px;
   height: 174px;
+
+  @media screen and (max-width: 999px) {
+    display: none;
+  }
 }
 
 .footer-nav__list li {
@@ -115,6 +203,18 @@
   font-size: 18px;
   font-weight: 700;
 
+  @media screen and (max-width: 999px) {
+    font-size: 26px;
+    // text-align: center;
+    margin-bottom: 3px;
+  }
+
+  @media screen and (max-width: 750px) {
+    font-size: 36px;
+    margin-bottom: 5px;
+    text-align: center;
+    }
+
 }
 
 .footer__text {
@@ -128,6 +228,13 @@
 .footer__right {
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 999px) {
+    width: 820px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15%;
+  }
 }
 
 .footer__media {
@@ -139,6 +246,14 @@
   justify-content: space-between;
 
   width: 190px;
+
+  @media screen and (max-width: 999px) {
+    width: 330px;
+  }
+
+  @media screen and (max-width: 750px) {
+    width: 390px;
+    }
 }
 
 .footer__button {
@@ -151,6 +266,30 @@
   border: 1px solid rgba(70, 163, 88, 0.20);  
   border-radius: 4px;
   outline: none;
+
+  @media screen and (max-width: 999px) {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.footer__button img {
+  @media screen and (max-width: 999px) {
+    width: 25px;
+    height: 25px;
+    }
+
+    @media screen and (max-width: 750px) {
+      width: 35px;
+      height: 35px;
+      }
+}
+
+.footer__payment img {
+  @media screen and (max-width: 999px) {
+    width: 285px;
+    height: 40px;
+    }
 }
 
 .footer__copyright {
@@ -169,6 +308,8 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 30px; /* 214.286% */
+
+  
 }
 
 .footer__copyright span {
@@ -179,4 +320,17 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 30px; /* 214.286% */
+
+  @media screen and (max-width: 999px) {
+    font-size: 16px;
+    }
+
+    @media screen and (max-width: 750px) {
+      font-size: 26px;
+      }
+}
+
+
+#footer__accept_text {
+  margin-bottom: 10px;
 }
