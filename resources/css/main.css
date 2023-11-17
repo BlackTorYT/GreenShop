@@ -140,11 +140,13 @@ a {
   max-width: 1200px;
   width: 100%;
 }
+
 @media screen and (max-width: 999px) {
   .header {
     min-height: 63px;
   }
 }
+
 @media screen and (max-width: 750px) {
   .header {
     display: none;
@@ -162,6 +164,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+
 }
 
 @media screen and (max-width: 999px) {
@@ -169,6 +172,7 @@ a {
     width: 180px;
     height: 40px;
   }
+
 }
 
 .header__nav {
@@ -239,9 +243,11 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+
   width: 100px;
   height: 35px;
   padding: 8px 0px 7px 0px;
@@ -645,23 +651,6 @@ a {
   -webkit-column-gap: 8px;
      -moz-column-gap: 8px;
           column-gap: 8px;
-}
-@media screen and (max-width: 999px) {
-  .footer__number {
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .footer__number {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .footer__number img {
-    width: 24px;
-    height: 28px;
-  }
 }
 
 .footer__main {
@@ -1165,6 +1154,7 @@ a {
 @media screen and (max-width: 750px) {
   .catalog__block {
     width: 750px;
+    width: 720px;
   }
 }
 
@@ -1196,6 +1186,7 @@ a {
 @media screen and (max-width: 750px) {
   .catalog__title {
     font-size: 33px;
+    font-size: 28px;
     line-height: 28px;
   }
 }
@@ -1210,6 +1201,7 @@ a {
   .catalog__price {
     font-size: 30px;
     line-height: 35px;
+    line-height: 28px;
   }
 }
 
@@ -1233,7 +1225,6 @@ a {
     width: 302px;
   }
 }
-
 .catalog__item:hover {
   border-top: 1px solid #46A358;
 }
@@ -1277,6 +1268,7 @@ a {
 @media screen and (max-width: 750px) {
   .pages__container {
     margin-right: 142px;
+    margin-right: 50px;
     gap: 12px;
     height: 45px;
   }
