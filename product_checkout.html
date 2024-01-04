@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="resources/css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- <script src="resources/js/slider.js"></script> -->
+  <title>Greenshop</title>
+</head>
+<body>
+  <div class="wrapper">
+
+        <!-- HEADER -->
+        <header class="header">
+          <!-- HEADER -->
+          <div class="container">
+              <div class="header__top-row">
+                  <a href="index.html">
+                      <img src="resources/img/header/logo.png" alt="Greenshop">
+                  </a>
+                  <div class="header__nav">
+                      <nav class="nav">
+                          <ul class="nav__list">
+                              <li class="nav__item"><a href="index.html">Home</a></li>
+                              <li class="nav__item nav__item_active"><a href="#">Shop</a></li>
+                              <li class="nav__item"><a href="#">Blogs</a></li>
+                          </ul>
+                      </nav>
+                  </div>
+                  <div class="header__right">
+                      <div class="header__cart">
+                          <a href="product_cart.html">
+                              <img class="header__cart" src="resources/img/header/cart.svg" alt="Cart">
+                          </a>
+                      </div>
+                      <div class="header__login">
+                          <a href="login.html">
+                              <button class="header__button">
+                                  <svg class="header__logout" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M18.1601 10.1006H8.12598" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                      <path d="M15.7212 7.67059L18.1612 10.1006L15.7212 12.5306" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                      <path d="M13.6342 6.35823C13.3592 3.3749 12.2425 2.29156 7.80082 2.29156C1.88332 2.29156 1.88332 4.21656 1.88332 9.9999C1.88332 15.7832 1.88332 17.7082 7.80082 17.7082C12.2425 17.7082 13.3592 16.6249 13.6342 13.6416" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+
+                                  Login
+
+                              </button></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+    
+    <div class="title">
+      <div class="title__container">
+        Checkout
+      </div>
+    </div>
+
+    <!-- BILLINGADDRESS -->
+
+    <div class="bill">
+        <h2><span>Home /</span> Shop / Checkout</h2>
+        <div class="bill__container">
+          <div class="bill__title">
+            <span>Billing Address</span>
+            <span id="bill__order">Your Order</span>
+          </div>
+          <div class="bill__block">
+            <div class="billAddress">
+              <div class="billAddress__container">
+                <!-- <div class="billAddress__row"> -->
+
+                  <div class="billAddress__block">
+                    <h4>First Name <span>*</span></h4>
+                    <input class="billAddress-field__input" type="" placeholder="" value="">
+                  </div>
+
+                  <div class="billAddress__block">
+                    <h4>Last Name <span>*</span></h4>
+                    <input class="billAddress-field__input" type="" placeholder="" value="">
+                  </div>
+                  
+                  <div class="billAddress__block">
+                    <h4>Country / Region <span>*</span></h4>
+                    <input class="billAddress-field__input" type="" placeholder="Select a country / region" value="">
+                  </div>
+
+                  <div class="billAddress__block">
+                    <h4>Town / City <span>*</span></h4>
+                    <input class="billAddress-field__input"  type="" placeholder="" value="">
+                  </div>
+
+                  <div class="billAddress__block">
+                    <h4>Street Address <span>*</span></h4>
+                    <input class="billAddress-field__input" type="" placeholder="House number and street name" value="">
+                  </div>
+
+                  <div class="billAddress__block" id="billAddress-field__input-empty">
+                    <h4>Appartment address<span></span></h4>
+                    <input class="billAddress-field__input"  type="" placeholder="Appartment, suite, unit, etc. (optional)" value="">
+                  </div>
+
+                  <div class="billAddress__block">
+                    <h4>State <span>*</span></h4>
+                    <input class="billAddress-field__input" type="" placeholder="Select a state" value="">
+                  </div>
+
+                  <div class="billAddress__block">
+                    <h4>Zip <span>*</span></h4>
+                    <input class="billAddress-field__input" type="" placeholder="" value="">
+                  </div>
+
+                  <div class="billAddress__block">
+                    <h4>Email address <span>*</span></h4>
+                    <input class="billAddress-field__input" type="" placeholder="" value="">
+                  </div>
+
+                  <div class="billAddress__block">
+                    <h4>Phone Number <span>*</span></h4>
+                    <input class="billAddress-field__input" type="" placeholder="" value="">
+                  </div>
+
+                  <div class="billAddress__block-radio">
+                    <input class="billAddress__checkbox" type="checkbox" placeholder="" value=""> <span>Ship to a different address?</span>
+                  </div>
+
+                  <div class="billAddress__block">
+                    <h4>Order notes (optional)</h4>
+                    <!-- <input class="billAddress-field__input_notes" type="" placeholder="" value=""> -->
+                    <textarea class="billAddress-field__input_notes" name="" rows="5" cols="33"></textarea>
+                  </div>
+                <!-- </div> -->
+                <!-- <div class="billAddress__row"> -->
+
+
+
+
+
+
+
+
+
+                <!-- </div> -->
+              </div>
+            </div>
+            <div class="billOrder">
+              <div class="billOrder__container">
+                <div class="billOrder__headline">
+                  <h3>Products</h3>
+                  <!-- <div class="billOrder__headline_title"> -->
+                    <div class="billOrder__headline_qty">
+                      <span>Qty</span>
+                    </div>
+                    <div class="billOrder__headline_sub">
+                      <span>Subtotal</span>
+                    </div>
+                  <!-- </div> -->
+                </div>
+                <div class="billOrder__line"></div>
+                <div class="billOrder__item">
+                  <div class="billOrder__item_img"><img src="resources/img/item1.png" alt=""></div>
+                  <div class="billOrder__item_title">
+                    <span>Barberton Daisy</span>
+                    <div class="billOrder__item_sku">
+                      SKU: <span>1995751877966</span>
+                    </div>
+                  </div>
+                  <div class="billOrder__item_qty">(x2)</div>
+                  <div class="billOrder__item_price">$238.00</div>
+                </div>
+
+                <div class="billOrder__item">
+                  <div class="billOrder__item_img"><img src="resources/img/item1.png" alt=""></div>
+                  <div class="billOrder__item_title">
+                    <span>Blushing Bromeliad</span>
+                    <div class="billOrder__item_sku">
+                      SKU: <span>19957518757065</span>
+                    </div>
+                  </div>
+                  <div class="billOrder__item_qty">(x6)</div>
+                  <div class="billOrder__item_price">$834.00</div>
+                </div>
+
+                <div class="billOrder__item">
+                  <div class="billOrder__item_img"><img src="resources/img/item1.png" alt=""></div>
+                  <div class="billOrder__item_title">
+                    <span>Aluminum Plant</span>
+                    <div class="billOrder__item_sku">
+                      SKU: <span>1995751877786</span>
+                    </div>
+                  </div>
+                  <div class="billOrder__item_qty">(x9)</div>
+                  <div class="billOrder__item_price">$1,611.00</div>
+                </div>
+                <div class="billOrder__coupone">Have a coupon code? <span>Click here</span></div>
+                <div class="billOrder__check">
+                  <div class="billOrder__subtotal">Subtotal <span>$2,683.00</span></div>
+                  <div class="billOrder__discount">Coupon Discount <span>(-) 00.00</span></div>
+                  <div class="billOrder__shiping">Shiping <span>$16.00</span></div>
+                  <a href="#"><div class="billOrder__charge">View shipping charge</div></a>
+                  <div class="billOrder__check_line"></div>
+                  <div class="billOrder__total">Total <span>$2,699.00</span></div>
+                  <div class="billOrder__method">Payment Method</div>
+                  <div class="billOrder__payment">
+                    <input class="billOrder__checkbox" type="radio" name="bill" placeholder="" value="">
+                    <img src="resources/img/visa.png" alt="">
+                  </div>
+                  <div class="billOrder__cash">
+                    <input class="billOrder__checkbox" type="radio" name="bill" placeholder="" value="">
+                    <span>Cash on delivery</span>
+                  </div>
+                  <div class="billOrder__place">
+                    <a href="order_confirmation.html"><button class="billOrder-button">Place Order</button> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__top">
+          <div class="footer__top-cut">
+            <div class="footer__logo">
+              <img src="resources/img/logo.svg" alt="">
+            </div>
+            <div class="footer__address">
+              <img src="resources/img/location.svg" alt=""> <div class="footer__adress-text">70 West Buckingham Ave.
+              Farmingdale, NY 11735</div>
+            </div>
+            <div class="footer__mail">
+              <img src="resources/img/message.svg" alt=""> contact@greenshop.com
+            </div>
+            <div class="footer__number">
+              <img src="resources/img/phone.svg" alt=""> +88 01911 717 490
+            </div>
+          </div>
+        </div>
+        <div class="footer__main">
+          <div class="footer__content">
+            <div class="footer__nav">
+
+              <nav class="footer-nav">
+                <ul class="footer-nav__list">
+                  <li class="footer__title">My Account</li>
+                  <li class="footer__text"><a href="#">My account</a></li>
+                  <li class="footer__text"><a href="#">Our stores</a></li>
+                  <li class="footer__text"><a href="#">Contact us</a></li>
+                  <li class="footer__text"><a href="#">Career</a></li>
+                  <li class="footer__text"><a href="#">Specials</a></li>
+                </ul>
+              </nav>
+
+              <nav class="footer-nav">
+                <ul class="footer-nav__list">
+                  <li class="footer__title">Help & Guide</li>
+                  <li class="footer__text"><a href="#">Help Center</a></li>
+                  <li class="footer__text"> <a href="#">How to Buy</a></li>
+                  <li class="footer__text"><a href="#">Shipping & Delivery</a></li>
+                  <li class="footer__text"><a href="#">Product Policy</a></li>
+                  <li class="footer__text"><a href="#">How to Return</a></li>
+                </ul>
+              </nav>
+
+              <nav class="footer-nav">
+                <ul class="footer-nav__list">
+                  <li class="footer__title">Categories</li>
+                  <li class="footer__text"><a href="#">House Plants</a></li>
+                  <li class="footer__text"><a href="#">Potter Plants</a></li>
+                  <li class="footer__text"><a href="#">Seeds</a></li>
+                  <li class="footer__text"><a href="#">Seeds Small</a></li>
+                  <li class="footer__text"><a href="#">Accessories</a></li>
+                </ul>
+              </nav>
+
+            </div>
+            <div class="footer__right">
+              <div class="footer__media">
+                <div class="footer__title">Social Media</div>
+                <div class="footer__social">
+                  <a href="#"><button class="footer__button"><img src="resources/img/Facebook.svg" alt=""></button></a>
+                  <a href="#"><button class="footer__button"><img src="resources/img/Instagram.svg" alt=""></button></a>
+                  <a href="#"><button class="footer__button"><img src="resources/img/Twitter.svg" alt=""></button></a>
+                  <a href="#"><button class="footer__button"><img src="resources/img/Linkedin.svg" alt=""></button></a>
+                  <a href="#"><button class="footer__button"><img src="resources/img/Union.svg" alt=""></button></a>
+                </div>
+              </div>
+              <div class="footer__payment">
+                <div class="footer__title" id="footer__accept_text">We accept</div>
+                <a href="#"><img src="resources/img/visa.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <span>© 2021 GreenShop. All Rights Reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+.header__button-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    cursor: pointer;
+  
+    color: #FFF;
+    background-color: #46A358;
+  
+    font-size: 16px;
+    font-weight: 500;
+    text-align:center;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    padding: 5px 8px 6px 7px;
+}
+
+.header__button_mobile{
+    display: none;
+    @media screen and (max-width: 750px) {
+        display: flex;
+        margin-top: 10px;
+        margin-right: 10px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+.header__button_hamburger{
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+
+    cursor: pointer;
+}
+
+.header__mobile_text{
+    display: none;
+    @media screen and (max-width: 750px) {
+      display: block;
+      color: #3D3D3D;
+      font-family: Cera Pro;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 16px; /* 88.889% */
+    }
+}
+
+.account{
+    width: 310px;
+    height: 431px;
+    display: flex;
+    background-color: #FBFBFB;
+    @media screen and (max-width: 750px) {
+        display: none;
+    }
+}
+
+.account__container{
+    width: 100%;
+    height: 100%;
+}
+
+.account__text{
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 88.889% */
+    margin-left: 18px;
+    margin-top: 18px;
+}
+
+.account__content{
+    display: flex;
+    padding: 15px 0 0 24px;
+    margin-bottom: 10px;
+}
+
+.account__column-image{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 2px 3px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.account__column-style_details{
+    color: #46A358;
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; /* 300% */
+    margin-left: 10px;
+    width: 130px;
+}
+
+.account__list{
+    display: flex;
+    align-items: center;
+}
+
+.account__list_footer{
+    display: flex;
+    align-items: center;
+    padding: 15px 0 0 24px;
+}
+
+.account__column-style{
+    color: #727272;
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    margin-left: 10px;
+}
+
+.account__column_style-green{
+    color: #46A358;
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 100% */
+    margin-left: 10px;
+}
+
+.account__line{
+    width: 100%;
+    height: 0.3px;
+    background-color: rgba(70, 163, 88, 0.50);
+}
